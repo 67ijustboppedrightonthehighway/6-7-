@@ -13,7 +13,7 @@ app.use(express.static(__dirname));
 // Define a route for the root URL (Home page)
 app.get('/', (req, res) => {
     // Send the home.html file as a response
-    res.sendFile(__dirname + '/home.html');
+    res.sendFile(__dirname + '/index.html');
 });
 
 // Define a route for the /bio URL (Bio page)
